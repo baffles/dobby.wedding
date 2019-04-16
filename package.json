@@ -11,5 +11,16 @@
     "typogr": "^0.6.8",
     "wintersmith-sassy": "^1.2.0",
     "wintersmith-webpack-babel": "^0.1.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-aws": "^0.7.1",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-imagemin": "^3.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-exec": "^3.0.0",
+    "grunt-git": "^1.0.13"
   }
 }

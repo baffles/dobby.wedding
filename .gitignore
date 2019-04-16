@@ -2,3 +2,4 @@
 build/
 contents/scripts/bundle.js
 node_modules/
+.aws.json
