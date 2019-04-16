@@ -1,0 +1,10 @@
+section#details.page-section.bg-primary
+	div.container
+		div.row.justify-content-center
+			div.col-lg-8.text-center
+				h2.text-white.mt-8= when
+				h5.text-white.mt-2= where
+				h6.text-white.mt-2= address
+				h4.divider.light.my-4
+				div.text-white-50.mb-4!=typogr(contents['details.md'].html).typogrify()
+				a.btn.btn-light.btn-xl.js-scroll-trigger(href='#rsvp') RSVP!

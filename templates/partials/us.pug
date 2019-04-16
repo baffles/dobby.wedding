@@ -1,0 +1,10 @@
+section#us
+	div.container-fluid.p-0
+		div.row.no-gutters
+			each entry in gallery
+				div.col-lg-4.col-sm-6
+					a.photo-box(href='img/gallery/fullsize/' + entry.file)
+						img.img-fluid(src='img/gallery/thumbnail/' + entry.file, alt=entry.title)
+						div.photo-box-caption
+							div.photo-location.text-white-50=entry.where
+							div.photo-title=entry.title

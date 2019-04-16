@@ -1,0 +1,67 @@
+{
+	"locals": {
+		"title": "Dina & Bobby",
+		"when": "September 13, 2019",
+		"time": "4:30 PM",
+		"where": "The Queensbury Hotel",
+		"address": "88 Ridge Street, Glens Falls, NY",
+		"gallery": [{
+			"title": "",
+			"where": "Burlington",
+			"file": "IMG_0177.jpg"
+		}, {
+			"title": "Us in Times Square!",
+			"where": "New York City",
+			"file": "IMG_8827.jpg"
+		}, {
+			"title": "Love Park",
+			"where": "Philadelphia",
+			"file": "IMG_1130.jpg"
+		}, {
+			"title": "Irish Road Bowling",
+			"where": "Indian Lake",
+			"file": "IMG_1202.jpg"
+		}, {
+			"title": "Cubs Game!",
+			"where": "Chicago",
+			"file": "IMG_0517.jpg"
+		}, {
+			"title": "The tree at Rockefeller Center",
+			"where": "New York City",
+			"file": "IMG_0603.jpg"
+		}, {
+			"title": "",
+			"where": "On top of a mountain",
+			"file": "IMG_0704.jpg"
+		}, {
+			"title": "Valley Cats Game!",
+			"where": "Troy",
+			"file": "IMG_0062.jpg"
+		}, {
+			"title": "On the Ice Throne",
+			"where": "Saranac, NY",
+			"file": "IMG_0955.jpg"
+		}, {
+			"title": "All fancy at a company party",
+			"where": "Long Island",
+			"file": "IMG_0977.jpg"
+		}, {
+			"title": "Dude, what? At a Phillies game",
+			"where": "Philadelphia",
+			"file": "IMG_1194.jpg"
+		}]
+	},
+	"require": {
+		"typogr": "typogr"
+	},
+	"pug": {
+		"pretty": true
+	},
+	"plugins": [
+		"wintersmith-sassy",
+		"wintersmith-webpack-babel"
+	],
+	"sass": {
+		"includePaths": ["./node_modules/"]
+	}
+}

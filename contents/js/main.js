@@ -1,0 +1,6 @@
+import 'bootstrap'
+import 'jquery.easing'
+import 'magnific-popup'
+import './nav.js'
+import './countdown.js'
+import './gallery.js'
