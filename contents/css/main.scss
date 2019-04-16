@@ -40,3 +40,31 @@ footer {
 		transform: scale(1);
 	}
 }
+
+.slam
+{
+	animation: slam 0.5s;
+	animation-delay: 0.5s;
+	animation-timing-function: ease-in;
+	display: inline-block;
+}
+
+@keyframes slam
+{
+	0%
+	{
+		transform: scale(10, 10);
+		opacity: 0;
+	}
+
+	40%
+	{
+		opacity: 0;
+	}
+
+	100%
+	{
+		transform: scale(1, 1);
+		opacity: 1;
+	}
+}
