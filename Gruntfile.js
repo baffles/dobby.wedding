@@ -72,7 +72,7 @@ module.exports = function(grunt) {
 			},
 			staging: {
 				cwd: 'build/',
-				src: [ 'css/**/*', 'img/**/*', 'js/main.js', '*.html' ],
+				src: [ 'css/**/*', 'img/**/*', 'js/main.js', 'other/**/*', '*.html' ],
 				expand: true,
 
 				options: {

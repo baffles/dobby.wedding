@@ -8,4 +8,10 @@ section#details.page-section.bg-primary
 				h4.divider.light.my-4
 				div.text-white-50.mb-4!=typogr(contents['details.md'].html).typogrify()
 				if rsvpEnabled
-					a.btn.btn-light.btn-xl.js-scroll-trigger(href='#rsvp') RSVP!
+					a.btn.btn-light.js-scroll-trigger(href='#rsvp')
+						i.fas.fa-check
+						|  RSVP!
+					|  
+				a.btn.btn-light(href='other/Dobby_Wedding.ics')
+					i.fas.fa-calendar
+					|  Add to calendar
