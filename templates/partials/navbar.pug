@@ -5,7 +5,8 @@ nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.py-3
 			span.navbar-toggler-icon
 		div#navbarResponsive.collapse.navbar-collapse
 			ul.navbar-nav.ml-auto.my-2.my-lg-0
-				li.nav-item: a.nav-link.js-scroll-trigger(href='#details') The Deets
+				li.nav-item: a.nav-link.js-scroll-trigger(href='#details') The Details
 				li.nav-item: a.nav-link.js-scroll-trigger(href='#us') Us
 				li.nav-item: a.nav-link.js-scroll-trigger(href='#story') Our Story
-				li.nav-item: a.nav-link.js-scroll-trigger(href='#rsvp') RSVP
+				if rsvpEnabled
+					li.nav-item: a.nav-link.js-scroll-trigger(href='#rsvp') RSVP
