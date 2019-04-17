@@ -1,7 +1,9 @@
 section#details.page-section.bg-primary
-	div.container
-		div.row.justify-content-center
-			div.col-lg-8.text-center
+	div.container.h-100
+		div.row.justify-content-center.h-100
+			div.map-col.col-lg-4
+				iframe.w-100.h-100(src='https://maps.google.com/maps?q=The Queensbury Hotel, Glens Falls, NY&output=embed')
+			div.col-lg-8.pt-3.pt-lg-0.text-center
 				h2.text-white.mt-8= when
 				h5.text-white.mt-2= where
 				h6.text-white.mt-2= address

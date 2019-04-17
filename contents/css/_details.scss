@@ -1,0 +1,7 @@
+#details {
+	@include media-breakpoint-down(md) {
+		.map-col {
+			height: 32vh;
+		}
+	}
+}
