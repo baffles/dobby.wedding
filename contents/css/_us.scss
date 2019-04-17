@@ -1,10 +1,20 @@
 #us {
+  background-color: $brown;
   .container-fluid {
     max-width: 1920px;
     .photo-box {
       position: relative;
       display: block;
-      text-align: center;
+
+      img {
+        max-height: 18rem;
+      }
+      @include media-breakpoint-up(lg) {
+        img {
+          max-height: 20rem;
+        }
+      }
+
       .photo-box-caption {
         display: flex;
         align-items: center;

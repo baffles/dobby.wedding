@@ -17,4 +17,4 @@ $('#us').magnificPopup({
 				' <small>' + $('.photo-location', item.el).text() + '</small>'
 		}
 	}
-});
+})
