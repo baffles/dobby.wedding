@@ -3,25 +3,22 @@ section#story.page-section
 		h2.text-center.mt-0 Our Story
 		hr.divider.my-4
 		div.row
-			div.col-lg-4.col-md-6.text-center
+			div.col-lg-3.col-md-6.text-center
 				div.mt-5
 					i.fas.fa-4x.fa-heart.text-primary.mb-4
 					h3.h4.mb-2 We Fell in Love
-					p.text-muted.mb-0 Blah blah
-			div.col-lg-4.col-md-6.text-center
+			div.col-lg-3.col-md-6.text-center
 				div.mt-5
 					i.fas.fa-4x.fa-gem.text-primary.mb-4
 					h3.h4.mb-2 We Got Engaged
-					p.text-muted.mb-0 &ellips; surprise?
-			//- div.col-lg-3.col-md-6.text-center
-			//- 	div.mt-5
-			//- 		i.fas.fa-4x.fa-laptop-code.text-primary.mb-4
-			//- 			h3.h4.mb-2 Blah
-			//- 			p.text-muted.mb-0 Blah
-			div.col-lg-4.col-md-6.text-center
+			div.col-lg-3.col-md-6.text-center
+				div.mt-5
+					i.fas.fa-4x.fa-female.text-primary.mb-4
+					i.fas.fa-4x.fa-male.text-primary.mb-4
+					h3.h4.mb-2 We're Getting Married
+			div.col-lg-3.col-md-6.text-center
 				div.mt-5
 					i.fas.fa-4x.fa-beer.text-primary.mb-4
-					h3.h4.mb-2 We're Getting Married
-					p.text-muted.mb-0 So come celebrate with us!
+					h3.h4.mb-2 So Come Celebrate with&nbsp;Us!
 		h4.divider.my-4
-		div.text-muted.text-justify.mb-5!= typogr(contents['story.md'].html).typogrify()
+		div.text-muted.text-justify!= typogr(contents['story.md'].html).typogrify()

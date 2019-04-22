@@ -7,7 +7,7 @@
 		"address": "88 Ridge Street, Glens Falls, NY",
 		"rsvpEnabled": false,
 		"gallery": [{
-			"title": "",
+			"title": "On Lake Champlain",
 			"where": "Burlington",
 			"file": "IMG_0177.jpg"
 		}, {
@@ -27,12 +27,12 @@
 			"where": "Chicago",
 			"file": "IMG_0517.jpg"
 		}, {
-			"title": "The tree at Rockefeller Center",
+			"title": "The Christmas tree at Rockefeller Center",
 			"where": "New York City",
 			"file": "IMG_0603.jpg"
 		}, {
-			"title": "",
-			"where": "On top of a mountain",
+			"title": "On top of a mountain",
+			"where": "The Adirondacks",
 			"file": "IMG_0704.jpg"
 		}, {
 			"title": "Valley Cats Game!",
