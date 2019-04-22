@@ -80,6 +80,10 @@ module.exports = function(grunt) {
 				}
 			},
 			production: {
+				cwd: 'build/',
+				src: [ 'css/**/*', 'img/**/*', 'js/main.js', 'other/**/*', '*.html' ],
+				expand: true,
+
 				options: {
 					bucket: "<%= aws.productionOptions.bucket %>"
 				}
