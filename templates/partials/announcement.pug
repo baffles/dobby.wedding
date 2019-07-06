@@ -13,4 +13,6 @@ header.announcement
 					|  on  
 					=when
 					| !
-				a.btn.btn-primary.btn-xl.js-scroll-trigger(href='#details') Tell me more!
+				a.btn.btn-primary.btn-xl.mx-1.js-scroll-trigger(href='#details') Tell me more!
+				if rsvpEnabled
+					button.btn.btn-primary.btn-xl.mx-1(data-toggle='modal', data-target='#rsvp-modal') RSVP!

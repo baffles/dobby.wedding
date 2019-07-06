@@ -1,4 +1,4 @@
-section#details.page-section.bg-primary
+section#details.page-section
 	div.container.h-100
 		hr.divider.my-4
 		div.row.justify-content-center.h-100
@@ -11,13 +11,13 @@ section#details.page-section.bg-primary
 				h4.divider.light.my-4
 				div.text-white-50.mb-4!=typogr(contents['details.md'].html).typogrify()
 				if rsvpEnabled
-					a.btn.btn-light.js-scroll-trigger(href='#rsvp')
+					button.btn.btn-light(data-toggle='modal', data-target='#rsvp-modal')
 						i.fas.fa-check
 						|  RSVP!
 					|  
 				else
 					div.text-white-75.mb-4
-						h5 Check back later for our wedding registry and to RSVP!
+						h5 Check back later to RSVP!
 				a.btn.btn-light(href='other/Dobby_Wedding.ics')
 					i.fas.fa-calendar
 					|  Add to calendar

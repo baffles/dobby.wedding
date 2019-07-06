@@ -1,0 +1,12 @@
+#registries {
+	background-color: $yellow;
+	color: $black;
+
+	img.logo {
+		width: 125px;
+
+		@include media-breakpoint-up(md) {
+			width: 200px;
+		}
+	}
+}

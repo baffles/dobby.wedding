@@ -1,0 +1,11 @@
+div#rsvp-modal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='#rsvp-modal-label')
+	div.modal-dialog.modal-dialog-centered.modal-lg(role='document')
+		div.modal-content
+			div.modal-header
+				h5#rsvp-modal-label.modal-title RSVP
+				button.close(type='button', data-dismiss='modal', aria-label='Close')
+					span(aria-hidden='true') &times;
+			div.modal-body.px-0
+				iframe.m-0.form(src='https://docs.google.com/forms/d/e/1FAIpQLSdxJ1BrHnJ0zoBTFSnx6sQivOtqEZf0MSrLmWuVqLBW4Z2hJw/viewform?embedded=true') Loading...
+			div.modal-footer
+				button.btn.btn-secondary(type='button', data-dismiss='modal') Close

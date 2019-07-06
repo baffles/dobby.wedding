@@ -17,5 +17,8 @@ html(lang='en')
 		include partials/us.pug
 		include partials/story.pug
 		include partials/accommodations.pug
+		include partials/registries.pug
+		if rsvpEnabled
+			include partials/rsvp.pug
 		include partials/footer.pug
 		script(src='js/main.js')
