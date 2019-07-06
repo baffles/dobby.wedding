@@ -1,4 +1,5 @@
 #details {
+	background-color: $orange;
 	@include media-breakpoint-down(md) {
 		.map-col {
 			height: 32vh;

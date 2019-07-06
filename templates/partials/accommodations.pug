@@ -1,4 +1,5 @@
-section#accommodations.page-section.bg-dark.text-white
+section#accommodations.page-section
 	div.container.text-center
 		h2 Accommodations
-		div!= typogr(contents['accommodations.md'].html).typogrify()
+		hr.divider.my-4
+		div.text-justify!= typogr(contents['accommodations.md'].html).typogrify()
