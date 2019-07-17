@@ -5,7 +5,7 @@
 		"time": "4:30 PM",
 		"where": "The Queensbury Hotel",
 		"address": "88 Ridge Street, Glens Falls, NY",
-		"rsvpEnabled": false,
+		"rsvpEnabled": true,
 		"gallery": [{
 			"title": "On Lake Champlain",
 			"where": "Burlington",

@@ -9,7 +9,26 @@ section#details.page-section
 				h5.text-white.mt-2= where
 				h6.text-white.mt-2= address
 				h4.divider.light.my-4
-				div.text-white-50.mb-4!=typogr(contents['details.md'].html).typogrify()
+				div.row.justify-content-center.align-items-center.text-white-50.mb-4
+					div.col-sm-2.text-center
+						i.fas.fa-3x.fa-clock
+					div.details-col.col-sm-6.text-center.text-sm-left!=typogr(contents['time.md'].html).typogrify()
+				div.row.justify-content-center.align-items-center.text-white-50.mb-4
+					div.col-sm-2.text-center
+						i.fab.fa-3x.fa-black-tie
+					div.details-col.col-sm-6.text-center.text-sm-left!=typogr(contents['attire.md'].html).typogrify()
+				div.row.justify-content-center.align-items-center.text-white-50.mb-4
+					div.col-sm-2.text-center
+						i.fas.fa-3x.fa-glass-cheers
+					div.details-col.col-sm-6.text-center.text-sm-left!=typogr(contents['bar.md'].html).typogrify()
+				div.row.justify-content-center.align-items-center.text-white-50.mb-4
+					div.col-sm-2.text-center
+						i.fas.fa-3x.fa-bed
+					div.details-col.col-sm-6.text-center.text-sm-left!=typogr(contents['accommodations-summary.md'].html).typogrify()
+				div.row.justify-content-center.align-items-center.text-white-50.mb-4
+					div.col-sm-2.text-center
+						i.fas.fa-3x.fa-parking
+					div.details-col.col-sm-6.text-center.text-sm-left!=typogr(contents['parking.md'].html).typogrify()
 				if rsvpEnabled
 					button.btn.btn-light(data-toggle='modal', data-target='#rsvp-modal')
 						i.fas.fa-check
