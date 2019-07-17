@@ -19,6 +19,11 @@
 
 @import "magnific-popup/src/css/main.scss";
 
+body {
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
 footer {
 	i.fa-heart {
 		color: #ff415c;
